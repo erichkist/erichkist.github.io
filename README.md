@@ -1,0 +1,1 @@
+Personal blog with tips, TILs and other stuffs. Check it out https://erichkist.com/
