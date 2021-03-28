@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>english on Erich Kist</title>
+    <link>https://erichkist.com/tags/english/</link>
+    <description>Recent content in english on Erich Kist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)</copyright>
+    <lastBuildDate>Thu, 09 Nov 2017 23:59:59 -0300</lastBuildDate><atom:link href="https://erichkist.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elixir tips: #1 — Copy last result in IEX</title>
+      <link>https://erichkist.com/elixir-tips-1-copy-last-result-in-iex/</link>
+      <pubDate>Thu, 09 Nov 2017 23:59:59 -0300</pubDate>
+      
+      <guid>https://erichkist.com/elixir-tips-1-copy-last-result-in-iex/</guid>
+      <description>In Ruby you have some tricks in the console. I always use the _ to retrieve the last return value. In Elixir, you have the same approach with v function. Let’s see:
+As you can see, the function v can get the last value because it’s using the default value -1 or you can use v(line_number) to get the value from a previous one.
+ Important: This post was original published by me at https://medium.</description>
+    </item>
+    
+    <item>
+      <title>Tracing and observing your remote node</title>
+      <link>https://erichkist.com/tracing-and-observing-your-remote-node/</link>
+      <pubDate>Tue, 10 May 2016 23:59:59 -0300</pubDate>
+      
+      <guid>https://erichkist.com/tracing-and-observing-your-remote-node/</guid>
+      <description>Today we will continue exploring techniques for debugging and tracing Elixir code that are so important for running and understanding production systems.
+ Important: This post was original published by me at http://blog.plataformatec.com.br/2016/05/tracing-and-observing-your-remote-node/
+ In the past, we have discussed:
+ how to debug your application how to trace systems with Erlyberly how to use the observer to introspect applications  The examples above always connected to systems running locally. Given Elixir’s and the Erlang VM focus on distributed systems, you may have wondered: can we use the VM capabilities to trace and observe remote nodes?</description>
+    </item>
+    
+    <item>
+      <title>How to trace Elixir nodes with Erlyberly</title>
+      <link>https://erichkist.com/how-to-trace-elixir-nodes-with-erlyberly/</link>
+      <pubDate>Thu, 14 Apr 2016 23:59:59 -0300</pubDate>
+      
+      <guid>https://erichkist.com/how-to-trace-elixir-nodes-with-erlyberly/</guid>
+      <description>At Plataformatec, we are always learning new techniques to help our clients introspect and monitor their production systems. Last week, we saw debugging techniques in Elixir and now we will see one of many ways to do tracing in Elixir.
+ Important: This post was original published by me at http://blog.plataformatec.com.br/2016/04/how-to-trace-elixir-nodes-with-erlyberly/
+ For this post, we will use erlyberly. You can see the installation instructions in its README.
+Tracing gives you all the data you need and doesn’t block your process as debuggers.</description>
+    </item>
+    
+    <item>
+      <title>Debugging techniques in Elixir</title>
+      <link>https://erichkist.com/debugging-techniques-in-elixir-lang/</link>
+      <pubDate>Thu, 07 Apr 2016 23:59:59 -0300</pubDate>
+      
+      <guid>https://erichkist.com/debugging-techniques-in-elixir-lang/</guid>
+      <description>It’s common that our first experience with debugging in a new language is by printing values to the terminal. Elixir isn’t different: we can use IO.puts/2 and IO.inspect/2. However, Elixir also provides other approaches to debugging.
+ Important: This post was original published by me at http://blog.plataformatec.com.br/2016/04/debugging-techniques-in-elixir-lang/
+ In this blog post, we’ll show you other 2 options: IEx.pry/0 and :debugger.
+IEx.pry The name “pry” is an old friend in the Ruby ecosystem but it has a different behavior in Elixir.</description>
+    </item>
+    
+    <item>
+      <title>Using Gettext to internationalize a Phoenix application</title>
+      <link>https://erichkist.com/using-gettext-to-internationalize-a-phoenix-application/</link>
+      <pubDate>Tue, 15 Mar 2016 23:59:59 -0300</pubDate>
+      
+      <guid>https://erichkist.com/using-gettext-to-internationalize-a-phoenix-application/</guid>
+      <description>To translate or not to translate? We have been asking ourselves the same question in one of our latest Phoenix projects. Even though internationalizing our application is planned a bit ahead in our roadmap, we have decided to do an initial evaluation of the translation tools in the Elixir ecosystem, and we were pleasantly surprised by what it has to offer.
+ Important: This post was original published by me at http://blog.</description>
+    </item>
+    
+    <item>
+      <title>How to Setup Ci to Run Phoenix Projects</title>
+      <link>https://erichkist.com/how-to-setup-ci-to-run-phoenix-projects/</link>
+      <pubDate>Fri, 12 Feb 2016 23:59:59 -0300</pubDate>
+      
+      <guid>https://erichkist.com/how-to-setup-ci-to-run-phoenix-projects/</guid>
+      <description>Writing tests is an important step in software development and everyone knows the benefits. In our last post, we took a look on how to write acceptance tests in Phoenix and today we will see how to configure CI to run the tests.
+ Important: This post was original published by me at http://blog.plataformatec.com.br/2016/02/how-to-setup-ci-to-run-phoenix-projects/
+ Install Erlang and Elixir We use Jenkins to run ours builds and Ansible to setup the agents.</description>
+    </item>
+    
+  </channel>
+</rss>
