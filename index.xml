@@ -14,9 +14,7 @@
       <pubDate>Thu, 09 Nov 2017 23:59:59 -0300</pubDate>
       
       <guid>https://erichkist.com/elixir-tips-1-copy-last-result-in-iex/</guid>
-      <description>In Ruby you have some tricks in the console. I always use the _ to retrieve the last return value. In Elixir, you have the same approach with v function. Let’s see:
-As you can see, the function v can get the last value because it’s using the default value -1 or you can use v(line_number) to get the value from a previous one.
- Important: This post was original published by me at https://medium.</description>
+      <description>During debug a session on Ruby, usually you refer for the previous command result. Let&amp;#39;s see how to do in Elixir</description>
     </item>
     
     <item>
@@ -75,6 +73,7 @@ IEx.pry The name “pry” is an old friend in the Ruby ecosystem but it has a d
  Important: This post was original published by me at http://blog.plataformatec.com.br/2016/02/how-to-setup-ci-to-run-phoenix-projects/
  Install Erlang and Elixir We use Jenkins to run ours builds and Ansible to setup the agents.</description>
     </item>
+    
     
   </channel>
 </rss>
