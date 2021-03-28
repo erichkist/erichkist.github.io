@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jenkins on Erich Kist</title>
+    <link>https://erichkist.com/tags/jenkins/</link>
+    <description>Recent content in jenkins on Erich Kist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)</copyright>
+    <lastBuildDate>Fri, 12 Feb 2016 23:59:59 -0300</lastBuildDate><atom:link href="https://erichkist.com/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Setup Ci to Run Phoenix Projects</title>
+      <link>https://erichkist.com/how-to-setup-ci-to-run-phoenix-projects/</link>
+      <pubDate>Fri, 12 Feb 2016 23:59:59 -0300</pubDate>
+      
+      <guid>https://erichkist.com/how-to-setup-ci-to-run-phoenix-projects/</guid>
+      <description>Writing tests is an important step in software development and everyone knows the benefits. In our last post, we took a look on how to write acceptance tests in Phoenix and today we will see how to configure CI to run the tests.
+ Important: This post was original published by me at http://blog.plataformatec.com.br/2016/02/how-to-setup-ci-to-run-phoenix-projects/
+ Install Erlang and Elixir We use Jenkins to run ours builds and Ansible to setup the agents.</description>
+    </item>
+    
+  </channel>
+</rss>
